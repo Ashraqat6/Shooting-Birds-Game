@@ -1,0 +1,32 @@
+body {
+    background-image: url("./Images/first\ page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font: normal 23px sans-serif;
+  }
+  .box {
+      
+      text-align: center;
+      justify-content: center;
+      background-color: rgba(176, 222, 230, 0.466); 
+      border-radius: 20px;
+      margin :16px auto;
+      width: 40%;
+      padding: 5px; 
+      border: 2px solid rgba(0, 0, 0, 0.39);
+  
+  }
+  .container
+  {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+  img
+  {
+      width: 70px;
+      height: 70px;
+  }

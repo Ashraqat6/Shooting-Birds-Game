@@ -1,0 +1,56 @@
+body {
+    background-image: url("./Images/second\ page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font: normal 23px sans-serif;
+  }
+  .dialogg
+  {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(145, 228, 255, 0.637);
+    margin: 10% auto;
+  }
+
+  .bird
+  {
+    position: absolute;
+    width:15%;
+    height: 15%;
+  }
+  .bomb
+  {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+  }
+  .container
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .box
+  {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 200px;
+    width: 200px;
+    padding: 5px;
+  }
+  .hiddenBox{
+    display: none;
+
+  }
+  .visibleBox
+  {
+    
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.61); 
+    border: 2px solid black;
+    margin: 20% auto;
+   
+  }
