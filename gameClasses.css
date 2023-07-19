@@ -23,8 +23,8 @@ body {
   .bomb
   {
     position: absolute;
-    width: 10%;
-    height: 20%;
+    width: 11%;
+    height: 14%;
   }
   .container
   {
@@ -40,9 +40,9 @@ body {
     width: 200px;
     padding: 5px;
   }
-  .hiddenBox{
+  .hiddenBox
+  {
     display: none;
-
   }
   .visibleBox
   {
@@ -51,6 +51,6 @@ body {
     text-align: center;
     background-color: rgba(245, 245, 220, 0.61); 
     border: 2px solid black;
-    margin: 20% auto;
+    margin: 15% auto;
    
   }

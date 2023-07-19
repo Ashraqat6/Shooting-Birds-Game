@@ -26,7 +26,7 @@ let killed=document.querySelectorAll(".box")[3];
 
 fallingBomb.onclick=function()
 {
-  let range=150;
+  let range=120;
   let birds=document.querySelectorAll(".bird");
   let bombleftMax=fallingBomb.offsetLeft +fallingBomb.width+range;
   let bombtopMax=fallingBomb.offsetTop +fallingBomb.height+range;
